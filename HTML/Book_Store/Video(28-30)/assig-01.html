@@ -6,6 +6,23 @@
     <title>Document</title>
 </head>
 <body>
+    <form action="" method="get">
+        <div>
+            <label>Username</label>
+            <input type="text" name="username" autofocus min="5" max="20" required/>
+        </div>
+        <div>
+            <label>Email</label>
+            <input type="text" name="email" value="o@o.com" readonly />
+        </div>
+
+        <div>
+            <label>Token</label>
+            <input hidden type="text" name="token" value="b92f1fc2fce391ad7af633723afd3055"/>
+        </div>
+        <input type="submit" value="Send" name="send" />
+        <input type="reset" value="Empty" name="empty" />
+    </form>
     
 </body>
 </html>
